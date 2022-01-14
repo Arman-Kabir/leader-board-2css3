@@ -35,53 +35,49 @@ main {
 }
 /* Header Styles
 ---------------- */
-header{
-  background-color: #562EFF;
+header {
+  background-color: #562eff;
   height: 94px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-.header-container{
+.header-container {
   width: 900px;
   display: flex;
   justify-content: space-between;
   /* padding: 20px 80px; */
 }
-.logo{
+.logo {
   display: flex;
   align-items: center;
-  
-
 }
-.logo img{
+.logo img {
   width: 40px;
-height: 51px;
+  height: 51px;
 }
-.logo .site-name{
+.logo .site-name {
   font-weight: 500;
-font-size: 24px;
-line-height: 36px;
-color: white;
-padding-left: 15px;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+  padding-left: 15px;
 }
-nav ul{
+nav ul {
   display: flex;
   align-items: center;
   /* justify-content: flex-start; */
   /* justify-content: space-between; */
 }
-nav ul li{
+nav ul li {
   list-style: none;
   padding: 0 25px;
 }
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   font-size: 16px;
   color: white;
 }
-
 
 /* Top Player CSS */
 .top-player {
@@ -131,26 +127,25 @@ nav ul li a{
 .blog-info h3 {
   padding-bottom: 15px;
 }
-.blog-author a{
+.blog-author a {
   text-decoration: none;
 }
 /*---------------
  Latest Course Styles
  -------------- */
- .latest-course{
-   padding: 22px;
- }
- .courses{
-   display: flex;
- }
+.latest-course {
+  padding: 22px;
+}
+.courses {
+  display: flex;
+}
 .course {
   width: 253px;
   padding: 12px;
   border-radius: 20px;
-  
 }
-.course:hover{
-  filter:drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+.course:hover {
+  filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
 }
 .course-detail .course-title {
   font-weight: 500;
@@ -178,18 +173,17 @@ nav ul li a{
   justify-content: space-between;
   padding-top: 20px;
 }
-.fa-star.filled-star{
-  color:#FFC014;
+.fa-star.filled-star {
+  color: #ffc014;
 }
-.fa-star.empty-star{
-  color:#AEAEAE;
+.fa-star.empty-star {
+  color: #aeaeae;
   opacity: 0.25;
 }
-.course-duration{
-  background-color:  #FFE4E8;
+.course-duration {
+  background-color: #ffe4e8;
   padding: 4px;
   border-radius: 15px;
-  
-color:#FF4A60;
-}
 
+  color: #ff4a60;
+}

@@ -112,6 +112,7 @@ nav ul li a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
+  margin-bottom: 30px;
 }
 .blog {
   display: flex;
@@ -123,6 +124,10 @@ nav ul li a {
 }
 .blog-info {
   padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
 }
 .blog-info h3 {
   padding-bottom: 15px;
